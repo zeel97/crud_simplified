@@ -1,14 +1,12 @@
 {
-  "name": "crud_simplified",
+  "name": "@zeelmehta/crud_simplified",
   "version": "1.0.5",
   "description": "Remove the need for a controller. Use the CRUD functions with just one line of code.",
   "main": "crud.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zeel97/crud_simplified.git"
+  "repository": "zeel97/crud_simplified",
+  "dependencies": {
+    "mongodb": "^3.1.12",
+    "mongoose": "^5.4.3"
   },
   "keywords": [
     "crud",

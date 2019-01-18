@@ -9,7 +9,6 @@
 */
 
 exports.create = function create(model,data) {
-    try {
         if (Array.isArray(data)) {
         var entries = []
         for (var i=0;i<data.length;i++) {
@@ -19,9 +18,6 @@ exports.create = function create(model,data) {
     }
     else {
         return addToModel(model,data)
-    }
-    } catch(error) {
-        throw error
     }
 }
 
