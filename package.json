@@ -1,6 +1,6 @@
 {
   "name": "crud_simplified",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Remove the need for a controller. Use the CRUD functions with just one line of code.",
   "main": "crud.js",
   "scripts": {
