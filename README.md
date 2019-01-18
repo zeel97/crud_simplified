@@ -18,7 +18,7 @@ It covers the CRUD functions:
   * **d**eleteById: deletes entry of a specific Id
   
   ### How to install
-  
+    
   `npm install @zeelmehta/crud_simplified`
   
   ### Integrate it into your node project
