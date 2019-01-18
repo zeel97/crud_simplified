@@ -8,7 +8,7 @@
 */
 
 
-exports.deleteAll = async function deleteAll(model) {
+const deleteAll = async function deleteAll(model) {
     let record = await model.deleteMany().exec()
     if (record !== null) {
         console.log(record);
@@ -18,3 +18,5 @@ exports.deleteAll = async function deleteAll(model) {
         return 'Database is empty'
     }
 }
+
+module.exports = deleteAll

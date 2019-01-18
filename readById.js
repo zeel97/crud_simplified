@@ -11,9 +11,11 @@
 
 var ObjectId = require('mongodb').ObjectID; 
 
-exports.readById = async function readById(model, Id) {
+const readById = async function readById(model, Id) {
     let record = await model.findOne({ '_id': new ObjectId(Id) }).exec()
     if (record !== null) {
         return record
     }
 }
+
+module.exports = readById

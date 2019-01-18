@@ -7,7 +7,9 @@
   - Return: the function return the json array of all the entries in the model
 */
 
-exports.readAll = async function readAll(model) {
+const readAll = async function readAll(model) {
     var results = await model.find().exec()
     return results
 }
+
+module.exports = readAll

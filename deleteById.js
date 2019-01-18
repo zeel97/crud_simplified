@@ -11,7 +11,7 @@
 
 var ObjectId = require('mongodb').ObjectID;  
 
-exports.deleteById = async function deleteById(model, Id) {
+const deleteById = async function deleteById(model, Id) {
     let record = await model.findOneAndDelete({ '_id': new ObjectId(Id) }).exec()
     if (record != null) {
         return record
@@ -20,3 +20,5 @@ exports.deleteById = async function deleteById(model, Id) {
         return 'Nothing to delete'
     }
 }
+
+module.exports = deleteById

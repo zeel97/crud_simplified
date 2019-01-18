@@ -8,7 +8,7 @@
   - Return: the function return the json value of the data saved in the model
 */
 
-exports.create = function create(model,data) {
+const create = function create(model,data) {
         if (Array.isArray(data)) {
         var entries = []
         for (var i=0;i<data.length;i++) {
@@ -32,3 +32,5 @@ async function addToModel(model,data) {
         throw error
     }
 }
+
+module.exports = create
