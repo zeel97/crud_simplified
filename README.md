@@ -1,6 +1,6 @@
 # crud_simplified
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg) ![NPM Version](https://img.shields.io/badge/Version-1.0.1-brightgreen.svg) 
+![License](https://img.shields.io/badge/License-MIT-blue.svg) ![NPM Version](https://img.shields.io/badge/Version-1.1.2-brightgreen.svg) 
 
 ## Use the CRUD functions with just *one* line of code. 
 ### Say no to controllers
@@ -56,3 +56,5 @@ It covers the CRUD functions:
   `var result = await crud.deleteById(model, Id)`
   
   ### That's all! With just one line of code! 
+
+  You can view the source code [here](https://github.com/zeel97/crud_simplified)
