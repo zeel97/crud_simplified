@@ -56,3 +56,4 @@ It covers the CRUD functions:
   `var result = await crud.deleteById(model, Id)`
   
   ### That's all! With just one line of code! 
+  [Source code](https://github.com/zeel97/crud_simplified)
