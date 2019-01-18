@@ -1,0 +1,30 @@
+{
+  "name": "crud_simplified",
+  "version": "1.0.3",
+  "description": "Remove the need for a controller. Use the CRUD functions with just one line of code.",
+  "main": "crud.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeel97/crud_simplified.git"
+  },
+  "keywords": [
+    "crud",
+    "function",
+    "crud",
+    "mongoDB",
+    "create",
+    "read",
+    "update",
+    "delete",
+    "node.js"
+  ],
+  "author": "Zeel Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeel97/crud_simplified/issues"
+  },
+  "homepage": "https://github.com/zeel97/crud_simplified#readme"
+}
