@@ -1,6 +1,6 @@
 # crud_simplified
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg) ![NPM Version](https://img.shields.io/badge/Version-1.1.0-brightgreen.svg) 
+![License](https://img.shields.io/badge/License-MIT-blue.svg) ![NPM Version](https://img.shields.io/badge/Version-1.0.1-brightgreen.svg) 
 
 ## Use the CRUD functions with just *one* line of code. 
 ### Say no to controllers
