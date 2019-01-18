@@ -1,6 +1,6 @@
 {
   "name": "@zeelmehta/crud_simplified",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Remove the need for a controller. Use the CRUD functions with just one line of code.",
   "main": "crud.js",
   "repository": "zeel97/crud_simplified",
